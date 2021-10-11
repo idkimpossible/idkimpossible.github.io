@@ -45,6 +45,9 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
+/* 
+! Line 1 => 47 should be default font styles. Any changes made should be changed over all the sheets.
+*/
 p {
   color: white;
   text-align: center;
@@ -66,6 +69,13 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 /* Page content */
